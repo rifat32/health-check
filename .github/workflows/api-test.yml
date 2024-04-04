@@ -47,6 +47,6 @@ jobs:
 
       - name: Client Api Tests
         run: |
-           cd api-tests && mvn test -Dtest=healthChecker.AuthController#testLoginAPI
+           cd api-tests && mvn test -Dtest=healthChecker.HealthCheckerController#checkHealth
 
    
